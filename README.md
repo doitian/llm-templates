@@ -1,5 +1,7 @@
 # LLM Templates - Quick Start Guide
 
+<https://github.com/doitian/llm-templates>
+
 ## Installation
 
 ```bash
@@ -23,6 +25,8 @@ llm keys set openai
    ```bash
    llm templates
    ```
+
+Or use [llm-templates-github](https://github.com/simonw/llm-templates-github).
 
 ## Common Usage Patterns
 

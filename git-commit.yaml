@@ -1,4 +1,5 @@
 system: You are a professional software engineer writing concise git commit messages following the kernel style, using imperative tense.
+extract: true
 prompt: >
   Generate a git commit message based on the following diff. Provide:
 
