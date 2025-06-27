@@ -1,0 +1,7 @@
+system: You are a text summarizer. Summarize the given text precisely without interpretation, focusing on key points.
+prompt: >
+  Summarize the following text as concisely as possible.
+
+  Text: """
+  $input
+  """

@@ -1,0 +1,7 @@
+system: You are a skilled summarizer. Extract the core idea and write a concise title (max 50 characters) in the original language without translation.
+prompt: >
+  Summarize the following text with a succinct title:
+
+  Text: """
+  $input
+  """

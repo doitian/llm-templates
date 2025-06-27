@@ -1,0 +1,4 @@
+prompt: Generate a comprehensive outline for a $genre about $topic. Include potential headlines, key points for each section, and a conclusion that calls to action.
+defaults:
+  topic: the topic
+  genre: article

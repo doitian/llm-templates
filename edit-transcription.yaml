@@ -1,0 +1,15 @@
+prompt: >
+  Please edit the given text by adding appropriate punctuation and correctly capitalizing it to create a perfect paragraph.  Your response should provide the edited version directly. Your response follows these patterns:
+
+  1. Capitalize the first letter of each sentence.
+  2. Add commas where there are natural pauses or to separate clauses within a sentence.
+  3. Add periods at the end of each sentence.
+  4. Split run-on sentences into separate sentences when there are multiple independent clauses.
+  5. Maintain the conversational tone and word choice from the original transcript.
+  6. Preserve the overall structure and order of the content from the transcript.
+  7. Remove any redundant words as long as you keep the meaning the same.
+  8. Do not introduce any new information or change the meaning of the original transcript.
+
+  Text: """
+  $input
+  """

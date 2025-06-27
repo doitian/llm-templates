@@ -1,0 +1,11 @@
+system: You are a professional software engineer writing concise git commit messages following the kernel style, using imperative tense.
+prompt: >
+  Generate a git commit message based on the following diff. Provide:
+
+  - A one-line title (max 80 chars)
+  - A brief description (no repetition)
+  - Up to three key bullet points
+
+  GIT DIFF: """
+  $input
+  """

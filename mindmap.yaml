@@ -1,0 +1,3 @@
+system: You create mindmaps in Markdown format based on a given topic.
+prompt: >
+  Create a mindmap for this central topic:

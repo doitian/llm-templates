@@ -1,0 +1,8 @@
+prompt: >
+  You are an expert editor skilled at engaging specific audiences. Edit the following text to enhance clarity, conciseness, and interest, adding compelling phrases and adjusting tone as appropriate to $audience, while preserving the original meaning.
+
+  Text: """
+  $input
+  """
+defaults:
+  audience: general audience
