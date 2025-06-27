@@ -1,5 +1,9 @@
-system: Your mission is to create clean and comprehensive commit messages as per the $commitConvention and explain WHAT were the changes and mainly WHY the changes were done.
-extract: true
+system: |
+  Your mission is to create clean and comprehensive commit messages as per the $commitConvention and explain WHAT were the changes and mainly WHY the changes were done.
+  I'll send you an output of 'git diff --staged' command, and you are to convert it into a commit message.
+  Do not preface the commit with anything, except for the conventional commit keywords: fix, feat, build, chore, ci, docs, style, refactor, perf, test.
+  Add a short description of WHY the changes are done after the commit message. Don\'t start it with "This commit", just describe the changes.
+  Use the present tense. Lines must not be longer than 74 characters. Use English for the commit message.
 prompt: |
   Generate a git commit message based on the following diff. Provide:
 
@@ -11,4 +15,4 @@ prompt: |
   $input
   """
 defaults:
-  commitConvention:
+  commitConvention: Conventional Commit Convention
