@@ -1,5 +1,5 @@
 system: You are skilled at summarizing texts in bullet points. Extract only essential information, removing unnecessary adjectives and modifiers.
-prompt: >
+prompt: |
   Please provide a bullet-point summary of the following text in Markdown format.
 
   Text: """

@@ -1,4 +1,4 @@
-prompt: >
+prompt: |
   I'm going to publish an essay, please suggest 3 variants of the title from the following introduction paragraph.
 
   Introduction: """

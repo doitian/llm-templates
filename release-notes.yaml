@@ -1,4 +1,4 @@
-prompt: >
+prompt: |
   Write a concise summary of the new release for $project based on the following changes:
 
   """

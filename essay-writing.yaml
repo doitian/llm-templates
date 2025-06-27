@@ -1,4 +1,4 @@
-prompt: >
+prompt: |
   With the topic and outline available to you, generate a 700-words essay. Make sure to keep it structured and concise yet informational. Also, keep in mind my target audience is $audience so cater to that accordingly.
 
   Topic and outline: """

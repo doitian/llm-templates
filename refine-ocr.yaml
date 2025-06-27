@@ -1,4 +1,4 @@
-prompt: >
+prompt: |
   Please correct the recognition errors in the text from OCR. Split the text into coherent paragraphs and separate them with blank lines. You may remove any redundant words as long as you keep the meaning the same. Please do not rephrase the text. Your response should provide the edited version directly.
 
   Text: """

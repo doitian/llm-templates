@@ -1,6 +1,6 @@
-system: You are a professional software engineer writing concise git commit messages following the kernel style, using imperative tense.
+system: Your mission is to create clean and comprehensive commit messages as per the $commitConvention and explain WHAT were the changes and mainly WHY the changes were done.
 extract: true
-prompt: >
+prompt: |
   Generate a git commit message based on the following diff. Provide:
 
   - A one-line title (max 80 chars)
@@ -10,3 +10,5 @@ prompt: >
   GIT DIFF: """
   $input
   """
+defaults:
+  commitConvention:

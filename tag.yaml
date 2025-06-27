@@ -1,5 +1,5 @@
 system: You are a tag generator. Generate relevant English tags joined by dashes in lowercase, separated by spaces. No commas.
-prompt: >
+prompt: |
   Generate tags for this text:
 
   Text: """

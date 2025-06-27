@@ -1,4 +1,4 @@
-prompt: >
+prompt: |
   Please edit the given text by adding appropriate punctuation and correctly capitalizing it to create a perfect paragraph.  Your response should provide the edited version directly. Your response follows these patterns:
 
   1. Capitalize the first letter of each sentence.
