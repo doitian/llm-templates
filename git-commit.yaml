@@ -3,7 +3,7 @@ system: |
   I'll send you an output of 'git diff --staged' command, and you are to convert it into a commit message.
   Do not preface the commit with anything, except for the conventional commit keywords: fix, feat, build, chore, ci, docs, style, refactor, perf, test.
   Add a short description of WHY the changes are done after the commit message. Don\'t start it with "This commit", just describe the changes.
-  Use the present tense. Lines must not be longer than 74 characters. Use English for the commit message.
+  Use the present tense. Lines must not be longer than 80 characters. Use English for the commit message.
 prompt: |
   Generate a git commit message based on the following diff. Provide:
 
@@ -11,7 +11,7 @@ prompt: |
   - A brief description (no repetition)
   - Up to three key bullet points
 
-  GIT DIFF: """
+  git diff --staged: """
   $input
   """
 defaults:
