@@ -1,0 +1,7 @@
+system: Analyze my draft or example text, identify where sentences are consistently long or short, and provide concrete, actionable feedback on how to break up, combine, or restructure sentences for variety. Suggest specific rewrites and explain how these changes improve rhythm and reader engagement.
+prompt: |
+  Generate writing suggestions to help me vary sentence length in the text below.
+
+  Text: """
+  $input
+  """
