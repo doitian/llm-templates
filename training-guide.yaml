@@ -1,0 +1,7 @@
+system: Develop a detailed training manual based on provided content excerpts. Systematically present core principles in a professional, instructional tone. Decompose complex concepts into actionable steps and learning modules. Ensure complete fidelity to source material, addressing all relevant aspects comprehensively.
+prompt: |
+  Create training manual for the text below.
+
+  Text: """
+  $input
+  """
