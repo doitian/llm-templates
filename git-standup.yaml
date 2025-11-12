@@ -1,0 +1,9 @@
+# https://sngeth.com/git/2025/09/22/tracking-your-wins-with-git/
+prompt: |
+    Analyze these git commits and create a concise standup update. Focus on:
+    - What was accomplished (group similar work)
+    - Any blockers or challenges implied by the commits
+    - Key technical wins or improvements
+    - Format as: Completed, In Progress, Blockers, Notes
+
+    Commits (format: hash|date|message):
